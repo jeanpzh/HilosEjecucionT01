@@ -39,7 +39,7 @@ El proyecto consta de las siguientes clases principales:
 ## Nota sobre la elección del algoritmo:
 
 **Recordatorio Importante**  
-En este proyecto, **no se eligió el algoritmo de la Criba de Eratóstenes** (que es conocido por ser más eficiente para encontrar primos) debido a razones netamenete **demostrativas**. El propósito central es ilustrar claramente cómo utilizar múltiples hilos en Java y cómo repartir una tarea entre ellos.
+En este proyecto, **no se eligió el algoritmo de la Criba de Eratóstenes** (que es conocido por ser más eficiente para encontrar primos) debido a razones netamente **demostrativas**. El propósito central es ilustrar claramente cómo utilizar múltiples hilos en Java y cómo repartir una tarea entre ellos.
 
 La elección de un método sencillo (verificar divisibilidad individual de cada número) permite enfocarse mejor en el concepto de concurrencia y en el impacto del paralelismo sobre el rendimiento,.
 
