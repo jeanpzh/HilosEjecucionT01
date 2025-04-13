@@ -30,10 +30,12 @@ El proyecto consta de las siguientes clases principales:
 ## Resultados
 
 - Para n = 100000
-  ![alt text](image.png)
+![Resultado 1](public/resultado2.png)
 
 - Para n = 1000000
-![alt text](image-1.png)
+![Resultado 2](public/resultado1.png)
+
+
 ## Nota sobre la elección del algoritmo:
 
 **Recordatorio Importante**  
