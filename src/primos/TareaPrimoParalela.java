@@ -1,4 +1,5 @@
 package primos;
+
 import java.util.List;
 
 public class TareaPrimoParalela extends Thread {
@@ -15,17 +16,17 @@ public class TareaPrimoParalela extends Thread {
     public void run() {
         for (int i = inicio; i <= fin; i++) {
             if (esPrimo(i)) {
-                synchronized (resultado) {
-                    resultado.add(i);
-                }
+                resultado.add(i);
             }
         }
     }
 
     private boolean esPrimo(int num) {
-        if (num <= 1) return false;
+        if (num <= 1)
+            return false;
         for (int i = 2; i * i <= num; i++) {
-            if (num % i == 0) return false;
+            if (num % i == 0)
+                return false;
         }
         return true;
     }
