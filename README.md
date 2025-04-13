@@ -1,6 +1,8 @@
-#  Explicación General del Proyecto: Números Primos con Threads en Java
+#  Explicación de Tarea
 
-## Objetivo General
+
+
+## Objetivo 
 El presente proyecto demuestra cómo utilizar programación concurrente con hilos en Java para determinar números primos en un rango dado, comparando el desempeño de una solución secuencial frente a una paralela.
 
 ---
@@ -20,8 +22,8 @@ El proyecto consta de las siguientes clases principales:
 ## Funcionamiento General
 
 - La clase `Secuencial` realiza una búsqueda lineal tradicional de números primos dentro de un rango, sin utilizar técnicas paralelas.
-- La clase `Paralela` reparte el rango total en segmentos, asignando cada segmento a un hilo (`TareaPrimo`) para ser procesado en paralelo. Esto permite aprovechar múltiples núcleos del procesador y reducir significativamente el tiempo de ejecución, especialmente en rangos grandes.
-- La clase `MainApp` compara tiempos y resultados, proporcionando una evidencia clara del beneficio que aporta la programación concurrente en tareas intensivas.
+- La clase `Paralela` reparte el rango total en segmentos, asignando cada segmento a un hilo (`TareaPrimoParalela`) para ser procesado en paralelo. Esto permite aprovechar múltiples núcleos del procesador y reducir significativamente el tiempo de ejecución, especialmente en rangos grandes.
+
 
 ---
 
